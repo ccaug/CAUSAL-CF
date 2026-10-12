@@ -75,26 +75,30 @@ tqdm>=4.65.0
 ---
 
 ## Evaluation Metrics
-Counterfactual Quality
-Metric	Definition
-Validity	Fraction of counterfactuals that flip the classifier decision
-Proximity	L2 distance between original and counterfactual
-Sparsity	Number of features changed
-Plausibility	Fraction of counterfactuals consistent with the causal graph
-Diversity	Fraction of unique counterfactuals across samples
-Detection Performance
-Tier	Description
-KNOWN	Attacks seen during training
-RAG-UNKNOWN	Unseen families matched via FAISS retrieval
-ZERO-DAY	Unseen attacks detected via novelty scoring
 
----
+### Counterfactual Quality
 
-## Security Impact
+| Metric | Definition |
+|--------|-----------|
+| **Validity** | Fraction of counterfactuals that flip the classifier decision |
+| **Proximity** | L2 distance between original and counterfactual |
+| **Sparsity** | Number of features changed |
+| **Plausibility** | Fraction of counterfactuals consistent with the causal graph |
+| **Diversity** | Fraction of unique counterfactuals across samples |
 
-Metric	Definition
-Actionable insights/sample	Mean number of recommended changes per alert
-Response time improvement	Simulated analyst speed-up
-Trust improvement	Simulated analyst confidence
-Analyst accuracy improvement	Simulated decision quality
+### Detection Performance
 
+| Tier | Description |
+|------|-------------|
+| **KNOWN** | Attacks seen during training |
+| **RAG-UNKNOWN** | Unseen families matched via FAISS retrieval |
+| **ZERO-DAY** | Unseen attacks detected via novelty scoring |
+
+### Security Impact
+
+| Metric | Definition |
+|--------|-----------|
+| **Actionable insights/sample** | Mean number of recommended changes per alert |
+| **Response time improvement** | Simulated analyst speed-up |
+| **Trust improvement** | Simulated analyst confidence |
+| **Analyst accuracy improvement** | Simulated decision quality |
