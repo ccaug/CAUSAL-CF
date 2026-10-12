@@ -1,6 +1,5 @@
 # CAUSAL-CF: Causal Counterfactual Explanations for Zero-Day Attack Detection
 
-[![Paper](https://img.shields.io/badge/Paper-IEEE%20ICMI%202027-blue)](https://github.com/your-org/causal-cf)
 [![Python](https://img.shields.io/badge/Python-3.9%2B-green)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-yellow)](LICENSE)
 [![Dataset](https://img.shields.io/badge/Dataset-UNSW--NB15-orange)](https://research.unsw.edu.au/projects/unsw-nb15-dataset)
